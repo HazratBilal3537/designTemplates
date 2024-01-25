@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 20px;
+    font-family: 'lato', sans-serif;
+}
+
+.row {
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+/* ````````````````````````````````````````````````````````````````````start header section ``````````````````````````````````````` */
+.header {
+    background-image: linear-gradient(-230deg, #5455b9, #927feb);
+    color: white;
+    padding: 120px 0px 0 0px;
+}
+
+.f-row {
+    display: flex;
+
+}
+
+.left-box {
+    width: 48%;
+}
+
+.heading {
+    word-spacing: 0px;
+    font-size: 128%;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+
+
+
+.paragraph-1 {
+    font-size: 84%;
+    line-height: 35px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+  
+}
+
+
+.btn {
+    padding: 22px 22px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    color: #fff;
+    border: 1px solid #69dbc4;
+    font-size: 87%;
+    margin-top: 59px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+
+
+}
+
+.all-courses {
+
+    background-color: #69dbc4;
+    margin-bottom: 138px;
+    box-shadow: 2px 23px 56px -20px #69dbc4;
+}
+
+
+.laptop-image img {
+    width: 160%;
+    height: auto;
+    margin: 12px 0px 0px 47px;
+
+}
+/* ````````````````````````````````````````````````````````````````````end header section ``````````````````````````````````````` */
+
+
+
+/* ``````````````````````````````````````````````````````````start section 100% of courses   ```````````````````````````````````````````` */
+.courses {
+    padding-top: 85px;
+}
+
+.f-course {
+    display: flex;
+}
+
+.blok-1 {
+
+
+    padding: 12px 0px 0px 0px;
+    margin: 12px 46px 0px 0px;
+
+}
+
+.blok-1 h1 {
+
+    color: #6d75f7;
+    letter-spacing: 1px;
+    font-size: 200%;
+    margin-bottom: 0;
+    word-spacing: 4px;
+
+
+}
+
+.h-two::after {
+
+    width: 36px;
+    height: 4px;
+    background-color: #89ddc3;
+    display: block;
+    content: " ";
+    margin: 40px 0;
+}
+
+.first-p {
+    /* letter-spacing: 1px; */
+    font-weight: bold;
+    font-size: 89%;
+    padding-bottom: 27px;
+    line-height: 29px;
+    font-family: sans-serif;
+}
+
+.second-p {
+    line-height: 35px;
+    /* letter-spacing: 1px; */
+    font-size: 83%;
+}
+.gray{
+    color: rgb(114, 114, 114);
+
+}
+
+
+.view-all {
+
+    background-color: #6d75f7;
+    box-shadow:2px 23px 56px -20px #6d75f7
+}
+
+.blok-2 {
+    display: grid;
+    grid-template-columns: 391px 391px;
+    grid-template-rows: 203px;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    box-shadow:0px 3px 23px -3px grey;
+    background-color: #c7c7c7;
+    margin-left: 38px;
+
+
+}
+
+.box {
+    display: flex;
+    background-color: #ffffff;
+    padding: 31px 11px;
+}
+
+
+.big-icon {
+    font-size: 240%;
+    border: 1px solid #f6f5fb;
+    padding: 9px 18px;
+    border-radius: 50%;
+    background-color: #f6f5fb;
+    margin: 0px 19px 0px 22px;
+    display: inline-block;
+}
+
+.big-icon-2 {
+    font-size: 240%;
+    border: 1px solid #f6f5fb;
+    padding: 9px 13px;
+    border-radius: 50%;
+    background-color: #f6f5fb;
+    margin: 0px 19px 0px 22px;
+    display: inline-block;
+}
+.pd-icon{
+    width: 69px;
+}
+.pragrap {
+    line-height: 32px;
+}
+
+.pragrap p {
+    font-size: 83%;
+    padding-top: 7px;
+}
+/* ``````````````````````````````````````````````````````````end section 100% of courses   ```````````````````````````````````````````` */
+
+
+/* ``````````````````````````````````````````````````````````start section easy as  1...2...3   ```````````````````````````````````````````` */
+.easy-as{
+    background-image: linear-gradient(-230deg, #5455b9, #927feb);
+    margin-top: 100px;
+    padding-top: 100px;
+    height: 100%;
+
+}
+.heading-space{
+    letter-spacing: 1px;
+    font-size: 190%;
+}
+.easy-as img {
+    height: 276px;
+    width: 58%;
+    margin-top: 138px;
+    rotate: -8deg;
+    margin-left: 154px;
+}
+.start-free{
+    background-color: #69dbc4;
+    box-shadow: 2px 23px 56px -12px #69dbc4;
+    margin-bottom: 234px;
+}
+.white{
+    color: white;
+
+}
+/* ``````````````````````````````````````````````````````````end section easy as  1...2...3   ```````````````````````````````````````````` */
+
+/* ```````````````````````````````start section ready to get started  ```````````````````````````````````````````` */
+.ready-to-get{
+    background-color: #c7c7c733;
+    padding-bottom: 151px;
+    
+}
+
+.courses-box{
+    background-color: white;
+    display: flex;
+    padding: 26px 21px;
+    margin: -105PX 31px 0px 0px;
+    box-shadow: 0px 2px 28px grey
+}
+.left-marg{
+    margin-left: 15px;
+}
+.courses-box h4{
+    color: #5455b9;
+}
+.ready-top{
+    margin-top: 111px;
+    margin-bottom: 20px;
+}
+.ready-to-get h1{
+    margin-bottom: 0;
+    color: #5455b9;
+
+}
+.btn-last {
+    padding: 20px 22px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    color: #fff;
+    /* border: 1px solid #69dbc4; */
+    font-size: 87%;
+    margin-top: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* word-spacing: 1px; */
+
+
+}
+.first-b{
+    background-color: #6d75f7;
+    box-shadow: 2px 23px 56px -12px #6d75f7;
+
+    margin-right: 53px;
+}
+.second-b{
+    background-color: white;
+    color: #5455b9;
+    box-shadow: 2px 23px 56px -20px #6d75f7;
+
+}
+.last-text{
+    font-size: 119%;
+}
