@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-size: 20px;
+    font-family: 'lato',sans-serif;
+}
+
+.row{
+    max-width: 1484px;
+    margin: 0 auto;
+}
+.header{     
+    height: 100vh;
+    background-color: red;
+    background-image: linear-gradient(-230deg,#ff5c6d, #ffb773);
+    color: white;
+      
+}
+.header h1{
+    margin: 0;
+    font-weight: 800;
+    font-size: 210%;
+    margin-right: 118px;
+    
+}
+.nav-bar{
+    display: flex;
+    padding: 50px;
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 12px;
+    
+}
+.btn-download{
+    border: 1px solid white;
+    padding: 10px 29px 10px 29px;
+}
+.nav-link li{
+    padding: 2px 12px 0 38px;
+}
+.nav-link a{
+    font-size: 105%;
+    text-decoration: none;
+    color: white;
+}
+.side-image{
+    transform: skewY(163deg);
+    display: inline-block;
+    position: absolute;
+    top: 241px;
+    left: 0px;
+}
+.side-image img{
+    height: 355px;
+    width: 157px;
+}
+.moto-all{
+    position: absolute;
+    top: 36%;
+    left: 38%;
+    
+}
+.solution{
+    width: 100%;
+    font-size: 181%;
+    letter-spacing: 2px;
+    
+}
+.moto-all p{
+    font-size: 104%;
+    line-height: 29px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin: 20px 0 60px 0;
+}
+.btn-downld{
+    text-decoration: none;
+    background-color: #f13144;
+    padding: 15px 69px 15px 69px;
+    font-size: 90%;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+
+}
+.section-2{
+    background-color: #faf9ff;
+    padding: 129px 50px 129px 32px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.col-1{
+    display: flex;
+    margin-left: 12px;
+}
+.one{
+    margin-top: 40px;
+    
+}
+.col-1 img{
+    width: 65px;
+}
+.two{
+    padding-left: 25px;
+}
+.two .p{
+    margin-top: 25px;
+    line-height:25px;
+    
+}
+.two .h2{
+    font-size: 160%;
+}
+/* section  for about moto app`
+```````````````````````````````````````````` */
+.first-box .box-1{
+    margin-top: 138px;
+    margin-bottom: 75px;
+
+}
+.first-box .h1{
+    font-size: 250%;
+    margin-bottom: 0;
+}
+.first-box .p2{
+    padding-top: 20px;
+    padding-bottom: 12px;
+    line-height: 30px;
+    font-size: 97%;
+}
+.first-box a{
+    text-decoration: none;
+    background-color:#f13144;
+    padding: 14px 50px;
+    color: white;
+    border-radius: 4px;
+
+    
+}
+.sec-img{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.soft img{
+    height: 563px;
+    width: 700px;
+    margin-top: 99px;
+    margin-bottom: 99px;
+
+}
+/* features  section  ```````````````````````````````*/
+.section-last{
+    background-color: #faf9ff;
+    padding-bottom: 20px;
+
+}
+.last-heading h1{
+font-size: 270%;
+}
+.last-heading p{
+    font-size: 105%;
+    line-height: 26px;
+}
+.last-heading .common{
+   margin-bottom: 20px;
+    text-align: center;
+    margin-top: 6px;
+}
+.last-heading{
+    padding: 110px 0px;
+}
+.last-box{
+    text-align: center;
+}
+.big-icon{
+    font-size: 160%;
+    border: 1px solid rgb(187, 44, 44);
+    border-radius: 50%;
+    padding: 16px 25px;
+}
+.big-icon1{
+    font-size: 160%;
+    border: 1px solid rgb(187, 44, 44);
+    border-radius: 50%;
+    padding: 16px 27px;
+}
+.big-icon2{
+    font-size: 160%;
+    border: 1px solid rgb(187, 44, 44);
+    border-radius: 50%;
+    padding: 17px 23px;
+}
+.last-box h2{
+   padding: 42px 0 22px 0;
+    font-size: 129%;
+}
+.last-box p{
+    line-height: 30px;
+    font-size: 104%;
+
+}
+.last-row{
+    padding-top: 72px;
+}
